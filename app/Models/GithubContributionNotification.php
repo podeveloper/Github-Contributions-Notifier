@@ -10,7 +10,7 @@ class GithubContributionNotification extends Model
     use HasFactory;
 
     protected $fillable = [
-        'page_link',
+        'profile_link',
         'email',
         'preferred_time',
         'timezone',
